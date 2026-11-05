@@ -9,5 +9,5 @@ It is **NOT** build to create an unfair advantage these modules are purely qol.
 ## Credits
 - The module Hero's anchor optimizer is obviously build and based on the origanal mod by HerobaneNair of which you can find the source [here](https://github.com/HerobaneNair/herosanchoroptimizer).
 
-##Preview
+## Preview
 ![Gui Preview](gui.png)
