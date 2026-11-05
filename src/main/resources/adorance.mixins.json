@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cute.bytebuffer.adorance.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BatchingRenderCommandQueueMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "HeldItemRendererMixin",
+    "ParticleManagerMixin",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "VertexConsumerProviderImmediateMixin",
+    "WorldRendererMixin",
+    "accessor.RenderLayerAccessor",
+    "accessor.RenderSetupAccessor",
+    "accessor.VertexConsumerProviderImmediateAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

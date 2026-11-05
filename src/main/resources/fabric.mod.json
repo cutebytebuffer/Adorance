@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "adorance",
+  "version": "${version}",
+  "name": "Adorance",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cute.bytebuffer.adorance.Adorance"
+    ]
+  },
+  "mixins": [
+    "adorance.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=21"
+  }
+}
